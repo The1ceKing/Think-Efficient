@@ -1,5 +1,9 @@
 Using pre-set license
+<<<<<<< Updated upstream
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+=======
+Built from '2020.3/release' branch; Version is '2020.3.34f1 (9a4c9c70452b) revision 10112156'; Using compiler version '192528614'; Build Type 'Release'
+>>>>>>> Stashed changes
 OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16306 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
@@ -15,6 +19,7 @@ C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 55890
 Successfully changed project path to: C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management
 C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management
@@ -23,6 +28,16 @@ Refreshing native plugins compatible for Editor in 58.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+=======
+51934
+Successfully changed project path to: C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management
+C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
+>>>>>>> Stashed changes
 [Subsystems] Discovering subsystems at path C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -32,6 +47,7 @@ Direct3D:
     VRAM:     2988 MB
     Driver:   30.0.14.9729
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
@@ -50,11 +66,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (621ms)
 		BeginReloadAssembly (54ms)
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001499 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (60ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (492ms)
 			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -62,22 +97,71 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (194ms)
+=======
+		EndReloadAssembly (471ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (179ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (14ms)
 				ProcessInitializeOnLoadAttributes (88ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
+=======
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.005925 seconds.
+=======
+Registered in 0.004191 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
+Symbol file data-0000025BA42FC020 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA438EB70 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA4350020 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA41E3230 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA41E3230 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA444C020 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA4E90E20 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA461D020 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA05C4C60 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA4E90E20 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA05CD670 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA3EBA020 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA05CD670 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025BA4473440 doesn't match image C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 57.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -86,10 +170,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1381ms)
 		BeginReloadAssembly (157ms)
+=======
+Refreshing native plugins compatible for Editor in 53.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1079ms)
+		BeginReloadAssembly (145ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (19ms)
 		EndReloadAssembly (1160ms)
 			LoadAssemblies (94ms)
@@ -98,9 +192,20 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (53ms)
 			SetupLoadedEditorAssemblies (532ms)
+=======
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (341ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (90ms)
 				ProcessInitializeOnLoadAttributes (362ms)
@@ -109,10 +214,21 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
+=======
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2809 Unused Serialized files (Serialized files now loaded: 0)
@@ -121,6 +237,16 @@ System memory in use after: 125.1 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3247.
 Total: 3.048600 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.627500 ms  DeleteObjects: 0.062900 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 3.042600 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.127800 ms MarkObjects: 2.643200 ms  DeleteObjects: 0.073100 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,6 +260,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/Scripts/Light.cs
   artifactKey: Guid(86f63c81916a30741b77d8530b75aebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Light.cs using Guid(86f63c81916a30741b77d8530b75aebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99483150a0c1543c9f0bcf2d2966f7d3') in 0.067850 seconds 
@@ -478,3 +605,8 @@ Start importing Assets/3D Assets/Models/wallDoorwayWide.fbx using Guid(79caa6d75
   Import took 0.037585 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+  path: Assets/toniplace.fbx
+  artifactKey: Guid(c2790b140ab79ae44ac1840b60339552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/toniplace.fbx using Guid(c2790b140ab79ae44ac1840b60339552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e71ddf98c7fc63e7aa274392556123b') in 0.295822 seconds 
+>>>>>>> Stashed changes
