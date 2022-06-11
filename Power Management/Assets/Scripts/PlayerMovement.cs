@@ -30,17 +30,41 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    enum walkstate
+    {
+        empty,
+        pathing,
+        reached
+    }
+
+    walkstate ws = walkstate.empty;
+    float timeout;
+
     void Update()
     {
-        if ((player.transform.position-destination.position).sqrMagnitude<=1*1)
+        if (ws == walkstate.empty)
         {
-            destination.position = stuff[Random.Range(0, stuff.Count)].transform.position;
+            destination = stuff[Random.Range(0, stuff.Count)].transform;
             Agent.SetDestination(destination.position);
+            timeout = Random.Range(6, 24);
+            ws = walkstate.pathing;
+        } else if (ws != walkstate.reached)
+        {
+            if ((player.transform.position - destination.position).sqrMagnitude <= 1)
+            {
+                StartCoroutine(Idler());
+                ws = walkstate.reached;
+            }
         }
 
+        timeout -= Time.deltaTime;
+        if (timeout <= 0) {
+            ws = walkstate.reached;
+        }
+    }
 
-
-
-
+    IEnumerator Idler() {
+        yield return new WaitForSeconds(Random.Range(0.5f, 4));
+        ws = walkstate.empty;
     }
 }

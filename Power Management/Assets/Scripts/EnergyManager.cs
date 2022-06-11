@@ -7,7 +7,7 @@ public class EnergyManager : MonoBehaviour
 {
     public Slider energyBar;
 
-    [SerializeField] private int maxEnergy = 1000;
+    [SerializeField] private int maxEnergy = 100;
     private float currentEnergy;
      
     void Start()
@@ -15,6 +15,10 @@ public class EnergyManager : MonoBehaviour
         currentEnergy = maxEnergy;
         energyBar.maxValue = maxEnergy;
         energyBar.value = maxEnergy;
+
+        Application.targetFrameRate = 30;
+
+        StartCoroutine(AddEnergy());
     }
 
     public void UseEnergy(float amount)
@@ -31,5 +35,16 @@ public class EnergyManager : MonoBehaviour
             //If the Energy hits zero then you lose
             print("You used all your energy!");
         }
-}
+
+        currentEnergy = Mathf.Clamp(currentEnergy, 0, maxEnergy);
+    }
+
+    IEnumerator AddEnergy()
+    {
+        while (true)
+        {
+            UseEnergy(-1);
+            yield return new WaitForSeconds(2f);
+        }
+    }
 }
