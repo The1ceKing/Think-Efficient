@@ -196,6 +196,7 @@ Received Import Request.
   path: Assets/Gold.asset
   artifactKey: Guid(08dd0533fd45b3343a41291e747d90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Gold.asset using Guid(08dd0533fd45b3343a41291e747d90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12fe6c236b51d7fcb29a96b4bffc481') in 0.010118 seconds 
+<<<<<<< Updated upstream
 ========================================================================
 Received Import Request.
   Time since last request: 7.643716 seconds.
@@ -214,3 +215,84 @@ Received Import Request.
   path: Assets/Scenes/Main Menu.unity
   artifactKey: Guid(97477bc2622dd8f419b2349edcfb9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Main Menu.unity using Guid(97477bc2622dd8f419b2349edcfb9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81637a3657c76b0f7fadd2c991abf4eb') in 0.006160 seconds 
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 7.643716 seconds.
+  path: Assets/Scenes/3D Teunbox.unity
+  artifactKey: Guid(0be93bb3964660b4481607deadfe57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3D Teunbox.unity using Guid(0be93bb3964660b4481607deadfe57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4774b4781f6c52c1168b5ca269a9444b') in 0.008003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.032333 seconds.
+  path: Assets/Scenes/Bedroom.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bedroom.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d4c3f6747f80bc9b2bbd1a8d503c68') in 0.006036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.568462 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(97477bc2622dd8f419b2349edcfb9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(97477bc2622dd8f419b2349edcfb9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81637a3657c76b0f7fadd2c991abf4eb') in 0.006160 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 3307.
+Total: 4.919900 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.121800 ms MarkObjects: 2.868500 ms  DeleteObjects: 1.721500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3307.
+Total: 4.668000 ms (FindLiveObjects: 0.247100 ms CreateObjectMapping: 0.132200 ms MarkObjects: 2.284500 ms  DeleteObjects: 2.003400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 557.652574 seconds.
+  path: Assets/Scenes/3D Teunbox.unity
+  artifactKey: Guid(0be93bb3964660b4481607deadfe57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3D Teunbox.unity using Guid(0be93bb3964660b4481607deadfe57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee645b05ecaea38ba51b4d70843e8471') in 0.006289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.108382 seconds.
+  path: Assets/Scenes/3D Toybox Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3D Toybox Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159ca7addaad32ec5d45d47a4d3b00cc') in 0.005640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.645649 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(97477bc2622dd8f419b2349edcfb9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(97477bc2622dd8f419b2349edcfb9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4460333b15a0472bc602ea22f8739a8b') in 0.007274 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> Stashed changes

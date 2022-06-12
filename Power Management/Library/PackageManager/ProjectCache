@@ -6,11 +6,16 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 637892427411941523
     m_Hash: 3495392058
 =======
       ticks: 637892428805279157
     m_Hash: 2036967593
+>>>>>>> Stashed changes
+=======
+      ticks: 637906649743684410
+    m_Hash: 439082891
 >>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/Devon/Documents/GitHub/Think-Efficient/Power Management/Packages/packages-lock.json
@@ -19,11 +24,16 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 637892427550604758
     m_Hash: 894664828
 =======
       ticks: 637892428805458686
     m_Hash: 4071294158
+>>>>>>> Stashed changes
+=======
+      ticks: 637906649743873626
+    m_Hash: 878191947
 >>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -36,8 +46,177 @@ m_PackageAssets:
       version: 1.15.4
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.collab-proxy@1.15.4
 =======
+      resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.collab-proxy@1.15.16
+>>>>>>> Stashed changes
+=======
+      resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.cinemachine@2.6.15
+      assetPath: Packages/com.unity.cinemachine
+      name: com.unity.cinemachine
+      displayName: Cinemachine
+      author:
+        name: 
+        email: 
+        url: 
+      category: cinematography
+      type: 
+      description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete
+        the Cinemachine asset from your project BEFORE installing this version from
+        the Package Manager."
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.1.11-beta.1
+        - 2.1.12
+        - 2.1.13
+        - 2.2.0
+        - 2.2.7
+        - 2.2.8
+        - 2.2.9
+        - 2.2.10-preview.3
+        - 2.2.10-preview.4
+        - 2.3.1
+        - 2.3.3
+        - 2.3.4
+        - 2.3.5-preview.3
+        - 2.4.0-preview.3
+        - 2.4.0-preview.4
+        - 2.4.0-preview.6
+        - 2.4.0-preview.7
+        - 2.4.0-preview.8
+        - 2.4.0-preview.9
+        - 2.4.0-preview.10
+        - 2.4.0
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
+        - 2.6.10
+        - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.8.3
+        - 2.8.4
+        - 2.8.6
+        - 2.9.0-pre.1
+        - 2.9.0-pre.6
+        compatible:
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
+        - 2.6.10
+        - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.8.3
+        - 2.8.4
+        - 2.8.6
+        - 2.9.0-pre.1
+        - 2.9.0-pre.6
+        verified: 2.6.15
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - camera
+      - follow
+      - rig
+      - fps
+      - cinematography
+      - aim
+      - orbit
+      - cutscene
+      - cinematic
+      - collision
+      - freelook
+      - cinemachine
+      - compose
+      - composition
+      - dolly
+      - track
+      - clearshot
+      - noise
+      - framing
+      - handheld
+      - lens
+      - impulse
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637892795820000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: 9799aa01355f2f7fb86c3cb5a6796b2d005e5c51
+        path: 
+    - packageId: com.unity.collab-proxy@1.15.16
+      testable: 0
+      isDirectDependency: 1
+      version: 1.15.16
+      source: 1
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.collab-proxy@1.15.16
 >>>>>>> Stashed changes
       assetPath: Packages/com.unity.collab-proxy
@@ -304,7 +483,11 @@ m_PackageAssets:
       version: 2.0.12
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+=======
+      resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
 >>>>>>> Stashed changes
@@ -401,7 +584,11 @@ m_PackageAssets:
       version: 1.2.4
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.ide.vscode@1.2.4
+=======
+      resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.ide.vscode@1.2.5
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.ide.vscode@1.2.5
 >>>>>>> Stashed changes
@@ -478,8 +665,11 @@ m_PackageAssets:
       version: 1.1.29
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.test-framework@1.1.29
 =======
+=======
+>>>>>>> Stashed changes
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.render-pipelines.universal@10.9.0
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
@@ -603,6 +793,9 @@ m_PackageAssets:
       version: 1.1.31
       source: 1
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.test-framework@1.1.31
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
@@ -2905,11 +3098,14 @@ m_PackageAssets:
       version: 2.0.0
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
 =======
+=======
+>>>>>>> Stashed changes
       resolvedPath: C:\Users\Devon\Documents\GitHub\Think-Efficient\Power Management\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
