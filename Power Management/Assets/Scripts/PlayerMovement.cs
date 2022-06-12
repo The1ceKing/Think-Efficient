@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 using UnityEngine.AI;
 using Vector3 = UnityEngine.Vector3;
@@ -46,11 +45,13 @@ public class PlayerMovement : MonoBehaviour
         {
             destination = stuff[Random.Range(0, stuff.Count)].transform;
             Agent.SetDestination(destination.position);
-            timeout = Random.Range(6, 24);
+            timeout = Random.Range(4, 12);
             ws = walkstate.pathing;
         } else if (ws != walkstate.reached)
         {
-            if ((player.transform.position - destination.position).sqrMagnitude <= 1)
+            Vector2 planar_pos = new Vector2(transform.position.x, transform.position.z);
+            Vector2 dest_pos = new Vector2(destination.position.x, destination.position.z);
+            if (Vector2.Distance(planar_pos, dest_pos) < 2)
             {
                 StartCoroutine(Idler());
                 ws = walkstate.reached;
